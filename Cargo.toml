@@ -5,4 +5,7 @@ authors = ["Dimitris Zervas <dzervas@dzervas.gr>"]
 edition = "2018"
 
 [dependencies]
-structopt = "*"
+async-std = "*"
+futures = "*"
+paw = "*"
+structopt = { version = "*", features = [ "paw" ] }
